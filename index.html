@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Mini Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+  
+    <div class="drag-overlay" id="dragOverlay">
+        <div class="drag-message">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <h3>Déposez vos fichiers audio ici</h3>
+            <p>Formats supportés: MP3, WAV, OGG, FLAC, M4A</p>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        <i class="fas fa-check-circle"></i> 
+        <span id="notificationText">Musique ajoutée</span>
+    </div>
+
+    <!-- Lecteur compact -->
+    <div class="mini-player" id="miniPlayer">
+        <!-- Zone de drag pour déplacer la fenêtre -->
+        <div class="drag-area"></div>
+        
+        <!-- Contrôles de fenêtre -->
+        <div class="window-controls">
+            <div class="window-btn minimize" id="minimizeBtn">
+                <i class="fas fa-minus"></i>
+            </div>
+            <div class="window-btn close" id="closeBtn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <div class="player-header">
+            <div class="player-title">Harmony</div>
+            <div class="player-controls">
+                <div class="control-btn" id="addBtn" title="Ajouter des fichiers">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="control-btn" id="shuffleBtn" title="Lecture aléatoire">
+                    <i class="fas fa-random"></i>
+                </div>
+                <div class="control-btn" id="repeatBtn" title="Répéter">
+                    <i class="fas fa-repeat"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="album-container">
+            <div class="album-art" id="albumArt">
+                <div class="default-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <img id="albumCover" src="" alt="Album cover">
+                <div class="loading-spinner"></div>
+            </div>
+        </div>
+
+        <div class="track-info">
+            <h3 id="trackTitle">Aucune musique</h3>
+            <p id="trackArtist">Sélectionnez une musique</p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar" id="progressBar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="timer">
+                <span id="currentTime">00:00</span>
+                <span id="duration">00:00</span>
+            </div>
+        </div>
+
+        <div class="playback-controls">
+            <div class="nav-btn" id="prevBtn">
+                <i class="fas fa-step-backward"></i>
+            </div>
+            <div class="play-btn" id="playBtn">
+                <i class="fas fa-play" id="playIcon"></i>
+            </div>
+            <div class="nav-btn" id="nextBtn">
+                <i class="fas fa-step-forward"></i>
+            </div>
+        </div>
+
+        <div class="playlist-btn" id="playlistBtn">
+            <i class="fas fa-list"></i>
+        </div>
+
+        <div class="volume-control" id="volumeControl">
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+        <div class="playlist-section" id="playlistSection">
+            <div class="playlist-header">
+                <h3><i class="fas fa-list-music"></i> Playlist</h3>
+                <div class="close-playlist" id="closePlaylist">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="playlist" id="playlist">
+                <div class="empty-state" id="emptyPlaylist">
+                    <i class="fas fa-music"></i>
+                    <h3>Playlist vide</h3>
+                    <p>Ajoutez des fichiers audio en cliquant sur le bouton <i class="fas fa-plus"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

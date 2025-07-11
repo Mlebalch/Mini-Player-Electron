@@ -41,19 +41,6 @@ Want to try Harmony Mini Player without setting up the development environment?
 
 *Compact music player interface with glassmorphism design*
 
-## Download
-
-### Ready-to-Use Release
-Want to try Harmony Mini Player without setting up the development environment? 
-
-**[⬇️ Download Latest Release](https://github.com/Mlebalch/Mini-Player-Electron/releases/latest)**
-
-*Available for Windows, macOS, and Linux*
-
-### Quick Install Options
-- **Windows**: Download `.exe` installer
-- **macOS**: Download `.dmg` file  
-- **Linux**: Download `.AppImage` or `.deb` package
 
 ##  🚀 Quick Start
 

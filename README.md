@@ -16,7 +16,7 @@ Want to try Harmony Mini Player without setting up the development environment?
 
 **[⬇️ Download Latest Release](https://github.com/Mlebalch/Mini-Player-Electron/releases/latest)**
 
-*Available for Windows, macOS, and Linux*
+*Available for Window*
 
 ### Quick Install Options
 - **Windows**: Download `.exe` installer

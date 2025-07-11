@@ -3,7 +3,7 @@
 
 ## 🚀 Quick Startalist music player built with Electron, featuring a beautiful glassmorphism design optimized for desktop use.
 
-![Harmony Mini Player](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
+![Harmony Mini Player](https://img.shields.io/badge/Platform-Windows-blue)
 ![Electron](https://img.shields.io/badge/Electron-28.3.3-47848F?logo=electron)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -36,10 +36,6 @@ Want to try Harmony Mini Player without setting up the development environment?
 - **📁 Drag & Drop**: Easy file addition with visual feedback
 - **🔄 Auto-shuffle**: Smart playlist shuffling
 - **⚡ Fast Performance**: Lightweight and responsive
-
-## 🖼️ Screenshots
-
-*Compact music player interface with glassmorphism design*
 
 
 ##  🚀 Quick Start
